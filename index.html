@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>A demo to open Excel file in JS</title>
+        <script src="./node_modules/xlsx/dist/jszip.js" type="text/javascript"></script>
+        <script src="./node_modules/xlsx/dist/xlsx.js" type="text/javascript"></script>
+        <script src="./index.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form onSubmit="return onFileUpload()">
+            <label>Choose a file </label>
+            <input id="fileInput" type="file" />
+            <br/>
+            <input type="submit" name="Submit" value="Submit" />
+        </form>
+        <textarea id="worksheetOutput" rows="100" cols="50"></textarea>
+    </body>
+</html>

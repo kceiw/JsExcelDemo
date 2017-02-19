@@ -1,0 +1,14 @@
+{
+  "name": "js-excel",
+  "version": "0.0.1",
+  "description": "This is a demo that opens Excel files in JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.8.3"
+  }
+}
